@@ -1,0 +1,54 @@
+Merhaba patika,
+
+PROJE 1 
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+CEVAP 1
+
+asama1 : 22 ile 2 yer degistirir > [2,27,16,22,18,6]
+asama2 : 27 ile 6 yer degistirir > [2,6,16,22,18,27]
+asama3 : 16 sabit kalir
+asama4 : 22 ile 18 yer degistirir> [2,6,16,18,22,27]
+asama5 : siralama basarili.
+
+PROJE 1 - 2
+
+Big-O gösterimini yazınız.
+
+CEVAP 1 -2 
+
+Ilk asamada tum sayilara(n adet)
+ikinci asamada bir sonrakine(n-1)
+sonraki asamalarda (n-2,n-3,n-4,...,1)
+
+toplam (n.(n-1))/2 adet tarama yapilir,
+
+Big O gosterimi O(n²) olmaktadir
+
+
+PROJE 1 - 3
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+CEVAP 1 - 3
+
+
+Dizi siralandiginda 18 sayisi dizinin ortalarinda kaldigi icin Average Case olarak degerlendirilir.
+
+
+PROJE 1 - 4
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+CEVAP 1 - 4
+
+adim 1 [2,3,5,8,7,9,4,15,6]
+adim 2 [2,3,4,5,8,7,9,15,6]
+adim 3 [2,3,4,5,6,8,7,9,15]
+adim 4 [2,3,4,5,6,7,8,9,15]
+
+
+
+
